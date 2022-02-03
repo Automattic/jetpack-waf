@@ -11,3 +11,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - added Initial version
+
+### Changed
+- Core: do not ship .phpcs.dir.xml in production builds.
