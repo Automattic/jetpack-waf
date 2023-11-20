@@ -4,10 +4,11 @@
 	"type": "jetpack-library",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"automattic/jetpack-connection": "^1.60.2-alpha",
-		"automattic/jetpack-constants": "^1.6.23",
-		"automattic/jetpack-ip": "^0.1.6",
-		"automattic/jetpack-status": "^1.19.0",
+		"php": ">=7.0",
+		"automattic/jetpack-connection": "^2.0.0-alpha",
+		"automattic/jetpack-constants": "^2.0.0-alpha",
+		"automattic/jetpack-ip": "^0.2.0-alpha",
+		"automattic/jetpack-status": "^2.0.0-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
@@ -51,7 +52,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-waf/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.11.x-dev"
+			"dev-trunk": "0.12.x-dev"
 		}
 	},
 	"config": {
