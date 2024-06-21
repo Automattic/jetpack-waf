@@ -8,7 +8,7 @@
 		"automattic/jetpack-connection": "^2.10.1",
 		"automattic/jetpack-constants": "^2.0.3",
 		"automattic/jetpack-ip": "^0.2.2",
-		"automattic/jetpack-status": "^3.3.1",
+		"automattic/jetpack-status": "^3.3.2-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
