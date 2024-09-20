@@ -7,7 +7,7 @@
 		"php": ">=7.0",
 		"automattic/jetpack-connection": "^4.0.4",
 		"automattic/jetpack-constants": "^2.0.4",
-		"automattic/jetpack-ip": "^0.2.3",
+		"automattic/jetpack-ip": "^0.3.0-alpha",
 		"automattic/jetpack-status": "^4.0.1",
 		"wikimedia/aho-corasick": "^1.0"
 	},
@@ -52,7 +52,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-waf/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.18.x-dev"
+			"dev-trunk": "0.19.x-dev"
 		}
 	},
 	"config": {
