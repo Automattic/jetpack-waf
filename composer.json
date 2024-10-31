@@ -5,15 +5,15 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.0",
-		"automattic/jetpack-connection": "^5.1.5",
-		"automattic/jetpack-constants": "^2.0.4",
-		"automattic/jetpack-ip": "^0.3.0",
-		"automattic/jetpack-status": "^4.0.2",
+		"automattic/jetpack-connection": "^5.1.6-alpha",
+		"automattic/jetpack-constants": "^2.0.5-alpha",
+		"automattic/jetpack-ip": "^0.3.1-alpha",
+		"automattic/jetpack-status": "^4.0.3-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^1.1.1",
-		"automattic/jetpack-changelogger": "^4.2.7",
+		"automattic/jetpack-changelogger": "^4.2.8-alpha",
 		"automattic/wordbless": "@dev"
 	},
 	"suggest": {
@@ -34,6 +34,10 @@
 		],
 		"post-install-cmd": "WorDBless\\Composer\\InstallDropin::copy",
 		"post-update-cmd": "WorDBless\\Composer\\InstallDropin::copy",
+		"test-coverage": [
+			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/integration/clover.xml\" --configuration tests/php/integration/phpunit.xml.dist",
+			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-clover \"$COVERAGE_DIR/unit/clover.xml\" --configuration tests/php/unit/phpunit.xml.dist"
+		],
 		"test-coverage-html": [
 			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-html ./coverage --configuration tests/php/integration/phpunit.xml.dist",
 			"php -dpcov.directory=. ./vendor/bin/phpunit --coverage-html ./coverage --configuration tests/php/unit/phpunit.xml.dist"
