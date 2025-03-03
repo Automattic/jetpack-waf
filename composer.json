@@ -6,8 +6,8 @@
 	"require": {
 		"php": ">=7.2",
 		"automattic/jetpack-connection": "^6.7.0-alpha",
-		"automattic/jetpack-constants": "^3.0.2",
-		"automattic/jetpack-ip": "^0.4.2",
+		"automattic/jetpack-constants": "^3.0.3-alpha",
+		"automattic/jetpack-ip": "^0.4.3-alpha",
 		"automattic/jetpack-status": "^5.0.5-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
