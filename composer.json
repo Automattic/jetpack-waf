@@ -8,7 +8,7 @@
 		"automattic/jetpack-connection": "^6.14.1-alpha",
 		"automattic/jetpack-constants": "^3.0.8",
 		"automattic/jetpack-ip": "^0.4.9",
-		"automattic/jetpack-status": "^5.3.1",
+		"automattic/jetpack-status": "^5.4.0-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
@@ -59,7 +59,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-waf/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "0.26.x-dev"
+			"dev-trunk": "0.27.x-dev"
 		}
 	},
 	"config": {
