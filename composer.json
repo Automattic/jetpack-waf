@@ -5,10 +5,10 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-connection": "^6.18.5",
+		"automattic/jetpack-connection": "^6.18.6-alpha",
 		"automattic/jetpack-constants": "^3.0.8",
-		"automattic/jetpack-ip": "^0.4.9",
-		"automattic/jetpack-status": "^6.0.3",
+		"automattic/jetpack-ip": "^0.4.10-alpha",
+		"automattic/jetpack-status": "^6.0.4-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
