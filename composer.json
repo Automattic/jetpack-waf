@@ -5,16 +5,16 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-connection": "^8.5.2",
-		"automattic/jetpack-constants": "^3.0.10",
-		"automattic/jetpack-ip": "^0.4.12",
-		"automattic/jetpack-status": "^6.1.5",
+		"automattic/jetpack-connection": "^8.5.3-alpha",
+		"automattic/jetpack-constants": "^3.0.11-alpha",
+		"automattic/jetpack-ip": "^0.4.13-alpha",
+		"automattic/jetpack-status": "^6.1.6-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "^1.0.6"
+		"automattic/phpunit-select-config": "^1.0.7-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -32,7 +32,7 @@
 			"phpunit-select-config tests/php/integration/phpunit.#.xml.dist --colors=always",
 			"phpunit-select-config tests/php/unit/phpunit.#.xml.dist --colors=always"
 		],
-		"test-coverage": "tests/action-test-coverage.sh",
+		"test-coverage": "@composer test-php-coverage",
 		"test-coverage-html": [
 			"php -dpcov.directory=. ./vendor/bin/phpunit-select-config tests/php/integration/phpunit.#.xml.dist --coverage-html ./coverage",
 			"php -dpcov.directory=. ./vendor/bin/phpunit-select-config tests/php/unit/phpunit.#.xml.dist --coverage-html ./coverage"
@@ -41,12 +41,9 @@
 			"@test-php-integration",
 			"@test-php-unit"
 		],
-		"test-php-unit": [
-			"phpunit-select-config tests/php/unit/phpunit.#.xml.dist --colors=always"
-		],
-		"test-php-integration": [
-			"phpunit-select-config tests/php/integration/phpunit.#.xml.dist --colors=always"
-		]
+		"test-php-coverage": "tests/action-test-coverage.sh",
+		"test-php-integration": "phpunit-select-config tests/php/integration/phpunit.#.xml.dist --colors=always",
+		"test-php-unit": "phpunit-select-config tests/php/unit/phpunit.#.xml.dist --colors=always"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
