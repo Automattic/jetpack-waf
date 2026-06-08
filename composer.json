@@ -5,16 +5,16 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.2",
-		"automattic/jetpack-connection": "^8.5.5-alpha",
-		"automattic/jetpack-constants": "^3.0.12-alpha",
-		"automattic/jetpack-ip": "^0.4.14-alpha",
-		"automattic/jetpack-status": "^6.1.7-alpha",
+		"automattic/jetpack-connection": "^8.5.5",
+		"automattic/jetpack-constants": "^3.0.12",
+		"automattic/jetpack-ip": "^0.4.14",
+		"automattic/jetpack-status": "^6.1.7",
 		"wikimedia/aho-corasick": "^1.0"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "^1.0.8-alpha"
+		"automattic/phpunit-select-config": "^1.0.8"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
