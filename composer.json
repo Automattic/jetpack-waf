@@ -7,7 +7,7 @@
 		"php": ">=7.4",
 		"automattic/jetpack-connection": "^9.18.0-alpha",
 		"automattic/jetpack-constants": "^4.0.1",
-		"automattic/jetpack-ip": "^0.7.1",
+		"automattic/jetpack-ip": "^0.8.0-alpha",
 		"automattic/jetpack-status": "^7.1.2-alpha",
 		"wikimedia/aho-corasick": "^1.0"
 	},
